@@ -1,0 +1,43 @@
+.game-zone {
+  position: relative;
+  margin: 10rem auto;
+  width: 520px;
+  height: 522px;
+  overflow: hidden;
+}
+
+.element {
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+}
+
+.element-child {
+  width: 50px;
+  height: 50px;
+  background-color: #5f9ea0;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.snake-body {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #d2691e;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.snake-body:last-child {
+  background-color: #c22526;
+}
+
+.snake-food {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #121414;
+  z-index: 1;
+  border-radius: 5px;
+}
